@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--###########################################################################-->
+
+<head>
+    <title>HealthCare Analytics Hub</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+
+
+
+<!--###########################################################################-->
+
+<body>
+
+    <!--########################## <NAVIGATION BAR> #################################-->
+
+    <nav class="navbar navbar-default" style="background-color: #E3FEFF; border: none">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <!--Navigation Bar Button-->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!--Nav brand-->
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-responsive" width="130px" height="70px" src=images/eternylogo.png
+                        style="position:relative;top:-15px">
+                </a>
+            </div>
+
+            <!--Elements of the NavBar-->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <!--Home Button-->
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <!--Dropdown menu-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">HealthCare <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="healthcareAnalytics.html">Analytics</a></li>
+                            <li><a href="dataTableSample.html">Data</a></li>
+                            <li><a href="healthcarePapers">White Papers</a></li>
+                        </ul>
+                    </li>
+                    <!--Other Menu Elements-->
+                    <li><a href="weather.html">Weather</a></li>
+                    <li><a href="electoral.html">Electoral</a></li>
+                </ul>
+                <!--Sin Up and Log in Elements-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--########################## /NAVIGATION BAR #################################-->
+    <!-- Page Title-->
+    <div class=container>
+        <div class=row>
+            <div class="col-sm-12">
+                <h1 align="center">Satisfaction Simulations Distribution by State</h1>
+            </div>
+        </div>
+    </div>
+    <!-- /Page Title-->
+
+    <div class=container>
+        <div class=row>
+            <div class="col-sm-12">
+                    <img src=images/overlapStateAvSamples-min.png height="1100px" width="600"  class="center">
+
+                    <p> This plot shows the satisfaction distribution for each state of the Mexican Territory.
+                        Around 1000 simulations were performed taking random samples of 500 surveys for each state.
+                        Almost every distribution is Overlaped which means that we can not reject the hipotesis that the satisfaction across
+                        the Mexican Territory has no diference by state. Further analytical tests are required.
+                        .<br>
+                        <strong></strong><br>
+                    </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!--<img class="img-fluid.max-width:100%" src=images/overlapStateAvSamples.png height="1100px" width="600"  class="center">-->

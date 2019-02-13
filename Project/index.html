@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--###########################################################################-->
+
+<head>
+    <title>HealthCare Analytics Hub</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+
+    @media only screen and (max-width:600px){
+        .navbar-header {
+            background-color: #cecbfd
+        }
+
+    }
+
+
+</style>
+
+
+<!--###########################################################################-->
+
+<body>
+
+<!--########################## <NAVIGATION BAR> #################################-->
+
+    <nav class="navbar navbar-default" style="background-color: #E3FEFF; border: none">
+        <div class="container-fluid">
+            
+            <div class="navbar-header">
+                <!--Navigation Bar Button-->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!--Nav brand-->
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-responsive" width="130px" height="70px" src=images/eternylogo.png
+                        style="position:relative;top:-15px">
+                </a>
+            </div>
+
+            <!--Elements of the NavBar-->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <!--Home Button-->
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <!--Dropdown menu-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">HealthCare <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="healthcareAnalytics.html">Analytics</a></li>
+                            <li><a href="dataTableSample.html">Data</a></li>
+                            <li><a href="healthcarePapers">White Papers</a></li>
+                        </ul>
+                    </li>
+                    <!--Other Menu Elements-->
+                    <li><a href="weather.html">Weather</a></li>
+                    <li><a href="electoral.html">Electoral</a></li>
+                </ul>
+                <!--Sin Up and Log in Elements-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--########################## /NAVIGATION BAR #################################-->
+
+
+<!--############################### CONTENT ####################################-->
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Healtchare Intelligence Hub</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+
+                <img class="img-responsive" width="500px" height="500px" src="images/AverageSat17vs18-min.png"
+                    style="position:relative;top:-15px">
+            </div>
+
+            <div class="col-md-7">
+
+                <h3> Statistical Analytics for IMSS Satisfaction Surveys</h3>
+
+                <p>This site is intended to be a hub for all the analytics for the Healthcare System in México.<br>
+                    We have gathered public data set and performed Statistical analytics to better understand
+                    the healthcare system dynamics.<br>
+                    If you have any data set that you would like us to anaylise please contact us at tomas@eterny.ai
+                    we will be glad to collaborate with you and your organization.
+                </p>                  
+
+                <p>This Plot represents a random sample simulation taken from the IMSS 2017 and 2018 Satisfaction Surveys.<br>
+                    Around one hundred satisfaction surveys were perfomed in 2017 and the same amount for 2018.<br>
+                    For each year 1,500 random samples of one thousand surveys were taken to calculate the average satisfaction.<br>
+                    This means that for each year, we calculated the average satisfaction 1,500 times; each time with 1,000 surveys taken at
+                    random. <br>
+                </p>
+
+                <p><strong> As we can see the axis for 2017 and 2018 are just overlaped in a very small amount of points which it means that for almost every 
+                    simulation the average for 2017 was diferent from the 2018.<br>
+                    And moreover,if we look very close the average distribution for each year, almost each time the satisfaction index from the 2018
+                    was higher than the one for the  year 2017.
+                </strong>
+                </p>
+                
+                <p> We will perform statistical test to proof that in fact the mean for each year is statistically different and conclude that
+                    in fact the satisfaction has grown from 2017 to 2017.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<!--############################## </CONTENT> ####################################-->
+
+</body>
+
+
+<!--###########################################################################-->
+
+
+<footer>
+
+</footer>
+
+
+
+
+
+</html>
